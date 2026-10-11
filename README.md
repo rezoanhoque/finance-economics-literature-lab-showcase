@@ -8,7 +8,8 @@ A research tool by **M. R. Hoque** for exploring finance and economics literatur
 
 - Search a public bibliographic snapshot spanning 27 journals (72,743 records in the October 11, 2026 release; historical coverage is incomplete).
 - Inspect title and available abstract-term matches, journal/year filters and original paper links.
-- Explore a cited worked example and export its visual evidence map as SVG or PNG.
+- Start with concise research questions across subsidies, econometric methods, labor, monetary policy, trade, environmental economics, banking and disclosure.
+- Open an optional cited evidence-comparison example; the main interface prioritizes topic exploration.
 - An implemented, separately hosted synthesis service can organize 3–8 accessible abstracts into a source-linked draft. Public activation is pending hosting configuration.
 
 The full implementation uses Astro/TypeScript for the interface, Python for collection and Node.js/MySQL for the separate synthesis service. This repository is a project overview and a small replication exercise, not the production application.
