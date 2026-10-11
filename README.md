@@ -29,3 +29,5 @@ Missing evidence is a coverage limitation, not proof of a gap. An abstract is no
 This repository contains a summary, method and synthetic examples. Production source, server configuration, credentials, private PDFs and unpublished datasets are maintained privately. The browser-delivered website is necessarily inspectable by visitors. No credentials or private research are needed to repeat this exercise.
 
 For collaboration or a specific replication request, [contact me](https://rezoanhoque.github.io/contact/).
+
+The comparison includes a one-line proposed research direction with source links. The prepared backend rejects missing/mismatched returned DOIs and unknown model citation IDs. These checks establish source identity, not a hallucination-free interpretation; suggestions still require researcher review.
