@@ -1,15 +1,15 @@
 # Finance & Economics Literature Lab
 
-A research tool by **M. R. Hoque** for exploring finance and economics literature and organizing evidence into main ideas, findings, limitations and possible next studies.
+A research tool by **M. R. Hoque** for finding finance, economics and related literature and downloading source-linked references.
 
 [Open the lab](https://rezoanhoque.github.io/tools/finance-literature/) · [See the animated pipeline](https://rezoanhoque.github.io/demos/finance-literature-pipeline/) · [Methods](https://rezoanhoque.github.io/tools/reproducibility/)
 
 ## What works today
 
-- Search a public bibliographic snapshot spanning 27 journals (72,743 records in the October 11, 2026 release; historical coverage is incomplete).
+- Search a public bibliographic snapshot spanning 152 journals (193,233 records in the October 12, 2026 release; historical coverage is incomplete).
 - Inspect title and available abstract-term matches, journal/year filters and original paper links.
 - Enter your own research topic across finance and economics; the interface goes directly to paper search.
-- Inspect an optional four-column comparison: Keywords, Paper, Paper gap, Future gap. Missing limitations and unverified proposed questions are labeled explicitly.
+- Download shown references in Excel-compatible CSV, plain text, APA or RIS format. Compare papers is coming soon.
 - An implemented, separately hosted synthesis service can organize 3–8 accessible abstracts into a source-linked draft. Public activation is pending hosting configuration.
 
 The full implementation uses Astro/TypeScript for the interface, Python for collection and Node.js/MySQL for the separate synthesis service. This repository is a project overview and a small replication exercise, not the production application.
@@ -30,6 +30,12 @@ This repository contains a summary, method and synthetic examples. Production so
 
 For collaboration or a specific replication request, [contact me](https://rezoanhoque.github.io/contact/).
 
-The comparison includes a one-line proposed research direction with source links. The prepared backend rejects missing/mismatched returned DOIs and unknown model citation IDs. These checks establish source identity, not a hallucination-free interpretation; suggestions still require researcher review.
+The planned comparison will include proposed research directions with source links. The prepared backend rejects missing/mismatched returned DOIs and unknown model citation IDs. These checks establish source identity, not a hallucination-free interpretation; suggestions still require researcher review.
 
 The current Crossref snapshot includes a version and import date for each record. Coverage totals are regenerated from the exact published JSON during every build. An OpenAlex import is being staged separately; the website does not claim it is already using that replacement.
+
+## Reference downloads
+
+Download the shown references as Excel-compatible CSV, plain text, RIS, or APA text using Crossref citation formatting. Every reference includes its DOI; unavailable metadata is not invented. APA requires a live provider connection. Compare papers is coming soon.
+
+New journal selection follows the [official ABDC list](https://abdc.edu.au/abdc-journal-quality-list/), B and above in finance, economics, econometrics, accounting and statistics. The 657 eligible titles are collection targets; the searchable catalog has partial archives and reports actual coverage.
