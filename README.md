@@ -31,3 +31,5 @@ This repository contains a summary, method and synthetic examples. Production so
 For collaboration or a specific replication request, [contact me](https://rezoanhoque.github.io/contact/).
 
 The comparison includes a one-line proposed research direction with source links. The prepared backend rejects missing/mismatched returned DOIs and unknown model citation IDs. These checks establish source identity, not a hallucination-free interpretation; suggestions still require researcher review.
+
+The current Crossref snapshot includes a version and import date for each record. Coverage totals are regenerated from the exact published JSON during every build. An OpenAlex import is being staged separately; the website does not claim it is already using that replacement.
